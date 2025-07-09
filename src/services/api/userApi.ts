@@ -1,5 +1,5 @@
 import { api } from './api';
-import { User, UserLocation, NearbyUsersRequest } from '../../types/user.ts';
+import { User, UserLocation, NearbyUsersRequest } from '../../types/index';
 
 export const userApi = {
   // Get current user profile

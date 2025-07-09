@@ -166,7 +166,6 @@ const MapScreen: React.FC = () => {
 		// Example: navigation.navigate('Chat', { userId });
 		console.log('Navigate to chat:', userId);
 	}, []);
-	}, []);
 
 	const handleUserPress = useCallback((selectedUser: User) => {
 		if (!selectedUser?.id) {

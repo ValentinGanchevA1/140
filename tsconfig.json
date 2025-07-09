@@ -3,7 +3,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
-    "lib": ["es2017", "dom"],
+    "lib": ["es2017", "dom", "react-native"],
     "allowJs": true,
     "jsx": "react-native",
     "noEmit": true,
@@ -22,8 +22,10 @@
       "@services/*": ["src/services/*"],
       "@store/*": ["src/store/*"],
       "@types/*": ["src/types/*"],
-      "@utils/*": ["src/utils/*"]
-    }
+      "@utils/*": ["src/utils/*"],
+      "@navigation/*": ["src/navigation/*"]
+    },
+    "types": ["react-native", "jest"]
   },
   "include": [
     "src/**/*",
